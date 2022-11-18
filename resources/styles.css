@@ -1,0 +1,38 @@
+html, body {
+    background-color:lightgrey;
+    font-family: 'Raleway';
+    color:black;
+    width:auto;
+    text-align: center;
+}
+
+header nav {
+    height: 70px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+nav {
+    display: inline-flex;
+    border-bottom: 1px solid darkgrey;
+    justify-content: space-between;
+    background-image: linear-gradient(lightgrey, darkslategrey);
+    
+
+}
+
+#name {
+    font-size: 30px;
+}
+
+.navbar {
+    display: inline-flex;
+    margin-right: 40px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+
+}
