@@ -2,8 +2,8 @@ html, body {
     background-color:lightgrey;
     font-family: 'Raleway';
     color:black;
-    width:auto;
     text-align: center;
+    width: auto;
 }
 
 header nav {
@@ -17,8 +17,6 @@ nav {
     border-bottom: 1px solid darkgrey;
     justify-content: space-between;
     background-image: linear-gradient(lightgrey, darkslategrey);
-    
-
 }
 
 #name {
@@ -34,5 +32,27 @@ nav {
     color: black;
     text-decoration: none;
     padding: 0 10px;
-
+    font-weight: bold;
 }
+
+#aboutme {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.aboutme_info {
+    margin-left: 20px;
+    width:50%;
+}
+
+.aboutme_pic {
+    max-width: 100%;
+    width:auto;
+    height:500px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
