@@ -65,7 +65,7 @@ nav {
     position:relative;
     justify-content: space-around;
     top:30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .projects {
@@ -107,7 +107,26 @@ nav {
     justify-content: space-around;
     height: 50px;
     margin-bottom: 30px;
+}
 
+.h2-contact {
+  padding-top: 10px;
+}
+
+.contact {
+    display:flex;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: inline-flex;
+    justify-content: left;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
 }
 
 
