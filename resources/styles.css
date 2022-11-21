@@ -65,7 +65,6 @@ nav {
     position:relative;
     justify-content: space-around;
     top:30px;
-    border-bottom: 2px solid midnightblue;
     padding-bottom: 30px;
 }
 
@@ -89,6 +88,28 @@ nav {
     font-size: 60px;
     font-weight: lighter;
 }
+
+.skills-section {
+    background-color: white;
+    position: relative;
+    top:20px;
+    border-bottom: 2px solid midnightblue;
+    border-top: 2px solid midnightblue;
+}
+.h2-skills {
+    text-align: center;
+    padding-top: 10px;
+}
+.container-skills {
+    top: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin-bottom: 30px;
+
+}
+
 
 
 
