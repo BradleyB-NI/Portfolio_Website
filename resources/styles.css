@@ -1,5 +1,5 @@
 html, body {
-    background-color:lightgrey;
+    background-color:seashell;
     font-family: 'Raleway';
     color:black;
     text-align: center;
@@ -14,9 +14,9 @@ header nav {
 
 nav {
     display: inline-flex;
-    border-bottom: 1px solid darkgrey;
+    border-bottom: 1px solid darkmagenta;
     justify-content: space-between;
-    background-image: linear-gradient(lightgrey, darkslategrey);
+    background-image: linear-gradient(thistle, darkmagenta);
 }
 
 #name {
@@ -54,5 +54,42 @@ nav {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+.h2-projects {
+    text-align: center;
+    border-top: 2px solid midnightblue;
+    padding-top: 30px;
+}
+.container-projects {
+    display: flex;
+    position:relative;
+    justify-content: space-around;
+    top:30px;
+    border-bottom: 2px solid midnightblue;
+    padding-bottom: 30px;
+}
+
+.projects {
+    background-color: darkmagenta;
+    padding: 30px;
+    width:150px;
+    height: 150px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.projects:hover {
+    background-color: midnightblue;
+}
+
+.project h3 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+
 
 
