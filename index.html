@@ -16,10 +16,10 @@
          <nav>
            <h1 id="name">Bryony Bradley</h1>
            <div class="navbar">
-            <p><a href="#">About Me</a></p>
-            <p><a href="#">Projects</a></p>
-            <p><a href="#">Skills</a></p>
-            <p><a href="#">Contact</a></p>
+            <p><a href="#aboutme">About Me</a></p>
+            <p><a href="#container-projects">Projects</a></p>
+            <p><a href="#skills-section">Skills</a></p>
+            <p><a href="#contact">Contact</a></p>
            </div>
          </nav>
     </header>
@@ -37,27 +37,32 @@
                 </p>
             </div>
             <div >
-                <img class="aboutme_pic" src="./resources/images/Mum.jpg"> 
+                <button id="open-button">Open</button>
+                <img id="aboutme-pic" src="./resources/images/Mum.jpg"> 
+                <button id="close-button">Close</button>
             </div>
         </div>
 
         <h2 class="h2-projects">Projects</h2>
-        <div class ="container-projects">
+        <div id ="container-projects">
             <div class = "projects">
                 <h3>Groom-tastics</h3>
-                <p>A basic webpage displaying 'flexbox'</p>
+                <p id="more-info1">A basic webpage displaying 'flexbox'</p>
+                <button id="read-more1">Read More</button>
             </div>
             <div class="projects">
                 <h3>CSS CheatSheet</h3>
-                <p>Utilising table design</p>
+                <p id="more-info2">Utilising table design</p>
+                <button id="read-more2">Read More</button>
             </div>
             <div class="projects">
-                <h3>Website Design System</h3>
-                <p>Displaying styling favourites</p>
+                <h3>Website Design</h3>
+                <p id="more-info3">Displaying styling favourites</p>
+                <button id="read-more3">Read More</button>
             </div>
         </div>
 
-        <div class="skills-section">
+        <div id="skills-section">
           <h2 class="h2-skills">Skills</h2>
           <div class="container-skills">
             <img src="../Portfolio_Website/resources/images/html5.PNG">
@@ -70,18 +75,20 @@
           </div>
         </div>
 
-        <h2 class="h2-contact">Contact</h2>
-        <div class ="contact">
+        <a href="../Portfolio_Website/contact.html" target="_blank"><h2 class="h2-contact">Contact</h2></a>
+        <div id ="contact">
             <div class="contact-item">
                 <img class="icon" src="../Portfolio_Website/resources/images/email.png">
                 <p>bradley.bryony@gmail.com</p>
             </div>
             <div class="contact-item">
-                <img class="icon" src="../Portfolio_Website/resources/images/github.PNG" >
+                <a href= "https://github.com/BradleyB-NI)"><img class="icon" src="../Portfolio_Website/resources/images/github.PNG" ></a>
                 <p>@BradleyB-NI </p>
             </div>
 
         </div>
     </main>
+
+    <script src="./resources/script.js"></script>
 </body>
 </html>
