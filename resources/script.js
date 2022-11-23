@@ -38,18 +38,9 @@ let open = function() {
 let hide = function() {
   pic.style.display = 'none';
   close.style.display = 'none';
+  view.style.display = 'block';
 };
 
 view.addEventListener('click', open);
 close.addEventListener('click', hide);
 
-// Write your code here
-const textChange = () => {
-  view.innerHTML = 'Hello!';
-}
-
-const textReturn = () => {
-  view.innerHTML = 'View';
-}
-view.addEventListener('click', textChange);
-close.onclick = textReturn;
